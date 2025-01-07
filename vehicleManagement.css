@@ -1,0 +1,126 @@
+/* VehicleManagement.css */
+
+.container {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin: 15px 0;
+  width: 100%;
+  max-width: 400px;
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 5px 0;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+}
+
+/* VehicleManagement.css */
+
+/* ... autres styles ... */
+
+/* VehicleManagement.css */
+
+/* ... autres styles ... */
+
+
+
+.vehicle-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+  padding: 15px 10px;
+}
+
+.vehicle-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 1em;
+}
+
+/* Ajouter une bordure droite pour chaque colonne */
+.vehicle-item div {
+  border-right: 1px solid #ccc;
+  padding: 0 10px; /* Ajouter un peu de padding horizontal */
+}
+
+.vehicle-item div:last-child {
+  border-right: none; /* Supprimer la bordure à droite du dernier élément */
+}
+
+/* ... autres styles ... */
+
+/* ... autres styles ... */
+
+.vehicle-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.vehicle-actions button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.vehicle-actions button.delete {
+  color: red;
+}
+
+.update {
+  background-color: green; /* Couleur verte pour le bouton Mettre à Jour */
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px; /* Ajoute du padding pour le bouton */
+}
+
+.update:hover {
+  background-color: darkgreen; /* Couleur lors du survol */
+}
+
+.delete {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px; /* Ajoute du padding pour le bouton */
+}
+
+.delete:hover {
+  background-color: darkred;
+}

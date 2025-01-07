@@ -1,0 +1,89 @@
+body {
+    background-color: #f0f0f0; /* Couleur de fond douce */
+    font-family: 'Arial', sans-serif; /* Police simple et lisible */
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Fait en sorte que le wrapper occupe toute la hauteur de la vue */
+}
+
+.main {
+    flex: 1; /* Permet à cette section de s'étendre pour prendre tout l'espace disponible */
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    padding: 20px;
+}
+
+form {
+    background-color: #fff; /* Fond blanc pour le formulaire */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    padding: 20px;
+    width: 100%;
+    max-width: 400px; /* Largeur maximale pour le formulaire */
+}
+
+h1 {
+    text-align: center; /* Centrer le texte */
+    color: #343a40; /* Couleur du texte */
+    margin-bottom: 20px; /* Marge en bas */
+}
+
+label {
+    display: block; /* Chaque label occupe une ligne */
+    margin-bottom: 5px; /* Marge en bas du label */
+    color: #495057; /* Couleur du texte des labels */
+    
+    
+}
+
+input {
+    width: 100%; /* Largeur complète */
+    padding: 10px; /* Espacement interne */
+    margin-bottom: 15px; /* Marge en bas des champs */
+    border: 1px solid #ced4da; /* Bordure */
+    border-radius: 5px; /* Coins arrondis */
+    box-sizing: border-box; /* Inclut le padding et la bordure dans la largeur */
+
+}
+
+input {
+    padding-right: 15px; /* Ajoute de l'espace à droite */
+}
+input:focus {
+    border-color: #007bff; /* Couleur de la bordure au focus */
+    outline: none; /* Enlève le contour par défaut */
+}
+
+button {
+    background-color: #007bff; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    padding: 10px; /* Espacement interne */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur pointeur */
+    width: 100%; /* Largeur complète du bouton */
+    font-size: 1.1em; /* Taille de police du bouton */
+}
+
+button:hover {
+    background-color: #0056b3; /* Couleur au survol */
+}
+select {
+    width: 100%; /* Largeur complète */
+    padding: 10px; /* Espacement interne */
+    margin-bottom: 15px; /* Marge en bas */
+    border: 1px solid #ced4da; /* Bordure */
+    border-radius: 5px; /* Coins arrondis */
+}
+h2 {
+    text-align: center; /* Centrer le texte */
+    color: #343a40; /* Couleur du texte */
+    margin-bottom: 20px; /* Marge en bas */
+    margin-top: 0; /* Enlève la marge en haut pour le coller au formulaire */
+}

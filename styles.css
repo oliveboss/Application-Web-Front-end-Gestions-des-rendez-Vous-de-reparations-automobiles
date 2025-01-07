@@ -1,0 +1,102 @@
+/* styles/styles.css */
+
+body {
+    font-family: 'Arial', sans-serif; /* Police simple */
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Couleur de fond douce */
+}
+
+
+
+ 
+
+html, body {
+    height: 100%; /* Assurez-vous que le corps prend toute la hauteur */
+    margin: 0; /* Enlever la marge par défaut */
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Fait en sorte que le wrapper occupe toute la hauteur de la vue */
+}
+
+.main {
+    flex: 1; /* Permet à cette section de s'étendre pour prendre tout l'espace disponible */
+}
+
+
+h1 {
+    text-align: center; /* Centrer le texte */
+    margin-top: 20px; /* Marge en haut */
+    font-size: 2.5em; /* Taille de police augmentée */
+    color: #343a40; /* Couleur du texte */
+}
+
+.home-container {
+    padding: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.intro-section {
+    margin-bottom: 30px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around; /* Espace autour des images */
+    margin-bottom: 20px; /* Marge en bas */
+}
+
+.image-card {
+    text-align: center; /* Centre le texte sous les images */
+    margin: 0 10px; /* Marge à droite et à gauche */
+}
+
+.intro-image {
+    width: 300px; /* Largeur fixe pour toutes les images */
+    height: 200px; /* Hauteur fixe pour toutes les images */
+    object-fit: cover; /* Couvrir le conteneur tout en gardant les proportions */
+    border-radius: 10px; /* Coins arrondis */
+}
+
+.features-section {
+    margin-bottom: 30px;
+}
+
+.features-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features-section li {
+    margin: 10px 0;
+    font-size: 1.1em; /* Taille de police augmentée */
+    color: #495057; /* Couleur de texte légèrement plus claire */
+}
+
+.call-to-action {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.call-to-action h2 {
+    font-size: 2em; /* Taille de police pour le titre */
+  
+}
+
+.cta-button {
+    background-color: #007bff; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em; /* Augmente la taille du texte du bouton */
+}
+
+.cta-button:hover {
+    background-color: #0056b3; /* Couleur au survol */
+}

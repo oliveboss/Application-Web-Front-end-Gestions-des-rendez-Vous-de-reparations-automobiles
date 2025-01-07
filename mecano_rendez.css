@@ -1,0 +1,83 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.appointment-list {
+    list-style: none;
+    padding: 0;
+}
+
+.appointment-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    position: relative;
+}
+
+.appointment-item h3 {
+    margin: 0;
+    color: #007bff;
+}
+
+.appointment-item p {
+    margin: 5px 0;
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+.appointment-item i {
+    margin-right: 8px; /* Espace à droite des icônes */
+    color: #007bff; /* Couleur des icônes */
+}
+
+.invoice-button {
+    background-color: blue; /* Couleur de fond pour le bouton de facture */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.invoice-button:hover {
+    background-color: blue; /* Couleur au survol */
+}
+
+.accept-button, .reject-button {
+    background-color: green; /* Couleur de fond pour le bouton Accepter */
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.accept-button:hover {
+    background-color: green; /* Couleur au survol pour Accepter */
+}
+
+.reject-button {
+    background-color: #dc3545; /* Couleur de fond pour Refuser */
+}
+
+.reject-button:hover {
+    background-color: #c82333; /* Couleur au survol pour Refuser */
+}

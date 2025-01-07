@@ -1,0 +1,45 @@
+/* header.css */
+
+header {
+    background-color: #15003f; /* Couleur de fond sombre */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement interne réduit */
+}
+
+nav {
+    display: flex; /* Utilise Flexbox pour aligner les éléments */
+    align-items: center; /* Centre verticalement les éléments */
+}
+
+nav a {
+    color: white; /* Couleur des liens */
+    text-decoration: none; /* Enlever le soulignement */
+    margin: 0 10px; /* Réduit la marge à gauche et à droite */
+    transition: color 0.3s; /* Animation pour le survol */
+}
+
+/* Positionne le lien "Accueil" à gauche */
+nav a:first-child {
+    margin-left: 0; /* Supprime la marge à gauche pour le premier lien */
+}
+
+nav a:hover {
+    color: #007bff; /* Change la couleur au survol */
+}
+.auth-links {
+    display: flex; /* Flexbox pour aligner les boutons */
+    margin-left: auto;
+    
+}
+.auth-button {
+    background-color: #007bff; /* Couleur de fond des boutons */
+    color: white;
+    padding: 10px 15px; /* Espacement interne */
+    border-radius: 5px; /* Coins arrondis */
+    margin-left: 10px; /* Marge à gauche */
+    text-decoration: none; /* Enlever le soulignement */
+}
+
+.auth-button:hover {
+    background-color: #0056b3; /* Couleur au survol */
+}

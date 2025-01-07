@@ -1,0 +1,46 @@
+/* footer.css */
+
+.footer {
+    background-color: #001f3f; /* Même couleur de fond que le header */
+    color: white; /* Texte en blanc */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.social-media {
+    margin-top: 10px; /* Marge au-dessus des liens de réseaux sociaux */
+}
+
+.social-media a {
+    color: white; /* Couleur des liens */
+    margin: 0 10px; /* Marge entre les liens */
+    text-decoration: none; /* Enlever le soulignement */
+}
+
+.social-media a:hover {
+    text-decoration: underline; /* Soulignement au survol */
+}
+/* Couleurs spécifiques pour chaque réseau social */
+.social-media a .fa-facebook {
+    color: #3b5998; /* Bleu de Facebook */
+}
+
+.social-media a .fa-twitter {
+    color: #1da1f2; /* Bleu de Twitter */
+}
+
+.social-media a .fa-instagram {
+    color: #e1306c; /* Rose de Instagram */
+}
+
+.social-media a .fa-youtube {
+    color: #ff0000; /* Rouge de Youtube */
+}

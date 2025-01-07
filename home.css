@@ -1,0 +1,83 @@
+/* Home.css */
+
+body {
+    background-color: #f0f0f0; /* Couleur de fond douce */
+    font-family: 'Arial', sans-serif; /* Police simple et lisible */
+    margin: 0;
+    padding: 0;
+}
+  
+.home-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+  
+.intro-section {
+    background-color: #a7a9b2; /* Couleur de fond */
+    padding: 20px;
+    border-radius: 10px; /* Coins arrondis */
+    margin-bottom: 20px; /* Marge en bas */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animation pour le mouvement */
+}
+  
+.intro-section:hover {
+    transform: translateY(-10px); /* Déplacement plus prononcé vers le haut */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Ombre plus forte au survol */
+}
+  
+.features-section, .video-section, .call-to-action {
+    margin: 20px 0; /* Marge autour des sections */
+    background-color: #a7a9b2; /* Fond pour ces sections */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animation pour le mouvement */
+}
+
+.features-section:hover, .video-section:hover, .call-to-action:hover {
+    transform: translateY(-10px); /* Déplacement plus prononcé vers le haut */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Ombre plus forte au survol */
+}
+  
+.features-section h2, .video-section h2, .call-to-action h2 {
+    color: #001f3f; /* Titre en bleu sombre */
+}
+  
+.cta-button {
+    background-color: #007bff; /* Couleur bleu claire pour le bouton */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Animation pour le survol */
+}
+  
+.cta-button:hover {
+    background-color: #0056b3; /* Couleur lors du survol */
+}
+
+/* Styles pour les images */
+.image-container {
+    display: flex;
+    justify-content: space-around; /* Espace autour des images */
+    margin-bottom: 20px; /* Marge en bas */
+}
+  
+.image-card {
+    text-align: center; /* Centre le texte sous les images */
+    margin: 0 10px; /* Marge à droite et à gauche */
+    transition: transform 0.3s; /* Animation pour le mouvement */
+}
+  
+.image-card:hover {
+    transform: scale(1.05); /* Agrandit l'image au survol */
+}
+  
+.intro-image {
+    width: 200px; /* Ajuste la largeur selon tes besoins */
+    height: auto; /* Garder les proportions de l'image */
+    border-radius: 10px; /* Coins arrondis */
+}

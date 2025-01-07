@@ -1,0 +1,108 @@
+/* appointmentScheduler.css */
+
+.container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin: 15px 0;
+  }
+  
+  select, input, textarea, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 400px;
+    margin: 5px auto;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .appointment-list {
+    margin-top: 20px;
+  }
+  
+  .appointment-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1em;
+  }
+  /* appointmentScheduler.css */
+
+.delete {
+    background-color: #dc3545; /* Rouge pour le bouton Annuler */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete:hover {
+    background-color: #c82333;
+  }
+  .container h1 i,
+.container h2 i,
+.appointment-item i {
+    margin-right: 5px; /* Espace à droite de l'icône */
+    color: #007bff; /* Couleur des icônes */
+}
+
+.container h1 i,
+.container h2 i,
+.appointment-item i {
+    margin-right: 5px; /* Espace à droite de l'icône */
+    color: #007bff; /* Couleur par défaut des icônes */
+}
+
+.appointment-item .fa-credit-card {
+    color: white; /* Couleur de l'icône de la carte de crédit */
+}
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button i {
+  margin-right: 5px; /* Espace entre l'icône et le texte */
+}
+
+.invoice-button {
+  background-color: #007bff; /* Couleur pour le bouton de consultation de facture */
+}
+
+.modifier  {
+  background-color: #28a745; /* Couleur pour le bouton d'acceptation */
+}
+
+.supprimer {
+  background-color: #dc3545; /* Couleur pour le bouton de refus */
+}
+
+button {
+  background-color: #6c757d; /* Couleur par défaut pour les autres boutons */
+}
